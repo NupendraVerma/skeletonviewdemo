@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E0130002313C0BB0096F85A /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E012FFF2313C0BB0096F85A /* test.swift */; };
 		9EBBE4D122F173090083957C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBBE4D022F173090083957C /* AppDelegate.swift */; };
 		9EBBE4D322F173090083957C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBBE4D222F173090083957C /* ViewController.swift */; };
 		9EBBE4D622F1730A0083957C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBE4D422F1730A0083957C /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		9EBBE4DB22F1730B0083957C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBE4D922F1730B0083957C /* LaunchScreen.storyboard */; };
 		9EBBE4E622F1730B0083957C /* SkeletonViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBBE4E522F1730B0083957C /* SkeletonViewDemoTests.swift */; };
 		9EBBE4F122F1730C0083957C /* SkeletonViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBBE4F022F1730C0083957C /* SkeletonViewDemoUITests.swift */; };
+		9EBBE50222F1AFF30083957C /* Collectionview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBBE50122F1AFF30083957C /* Collectionview.swift */; };
+		AD7474A1A676AE2EBFAB7912 /* Pods_SkeletonViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F048465AF5BCF010CAD7EFA2 /* Pods_SkeletonViewDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B21B9D0063066786297498B /* Pods-SkeletonViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkeletonViewDemo.release.xcconfig"; path = "Target Support Files/Pods-SkeletonViewDemo/Pods-SkeletonViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9E012FFF2313C0BB0096F85A /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		9EBBE4CD22F173090083957C /* SkeletonViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkeletonViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EBBE4D022F173090083957C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EBBE4D222F173090083957C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		9EBBE4EC22F1730C0083957C /* SkeletonViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkeletonViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EBBE4F022F1730C0083957C /* SkeletonViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonViewDemoUITests.swift; sourceTree = "<group>"; };
 		9EBBE4F222F1730C0083957C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EBBE50122F1AFF30083957C /* Collectionview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collectionview.swift; sourceTree = "<group>"; };
+		E11C2F2DC3EDC6786870B27B /* Pods-SkeletonViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkeletonViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-SkeletonViewDemo/Pods-SkeletonViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F048465AF5BCF010CAD7EFA2 /* Pods_SkeletonViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkeletonViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7474A1A676AE2EBFAB7912 /* Pods_SkeletonViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6063C40FFB7749639EC15E8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F048465AF5BCF010CAD7EFA2 /* Pods_SkeletonViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9EBBE4C422F173090083957C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,8 @@
 				9EBBE4E422F1730B0083957C /* SkeletonViewDemoTests */,
 				9EBBE4EF22F1730C0083957C /* SkeletonViewDemoUITests */,
 				9EBBE4CE22F173090083957C /* Products */,
+				DF5D107620331FAAD46BB3A8 /* Pods */,
+				6063C40FFB7749639EC15E8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,8 @@
 				9EBBE4D722F1730B0083957C /* Assets.xcassets */,
 				9EBBE4D922F1730B0083957C /* LaunchScreen.storyboard */,
 				9EBBE4DC22F1730B0083957C /* Info.plist */,
+				9EBBE50122F1AFF30083957C /* Collectionview.swift */,
+				9E012FFF2313C0BB0096F85A /* test.swift */,
 			);
 			path = SkeletonViewDemo;
 			sourceTree = "<group>";
@@ -125,6 +146,15 @@
 			path = SkeletonViewDemoUITests;
 			sourceTree = "<group>";
 		};
+		DF5D107620331FAAD46BB3A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E11C2F2DC3EDC6786870B27B /* Pods-SkeletonViewDemo.debug.xcconfig */,
+				8B21B9D0063066786297498B /* Pods-SkeletonViewDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EBBE4F522F1730C0083957C /* Build configuration list for PBXNativeTarget "SkeletonViewDemo" */;
 			buildPhases = (
+				07C3842FF0C88812164A1D67 /* [CP] Check Pods Manifest.lock */,
 				9EBBE4C922F173090083957C /* Sources */,
 				9EBBE4CA22F173090083957C /* Frameworks */,
 				9EBBE4CB22F173090083957C /* Resources */,
+				B71DEE52B52CFA6F75A06C8E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,12 +283,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07C3842FF0C88812164A1D67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkeletonViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B71DEE52B52CFA6F75A06C8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkeletonViewDemo/Pods-SkeletonViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkeletonViewDemo/Pods-SkeletonViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9EBBE4C922F173090083957C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9EBBE4D322F173090083957C /* ViewController.swift in Sources */,
+				9E0130002313C0BB0096F85A /* test.swift in Sources */,
+				9EBBE50222F1AFF30083957C /* Collectionview.swift in Sources */,
 				9EBBE4D122F173090083957C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -418,7 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -430,10 +511,12 @@
 		};
 		9EBBE4F622F1730C0083957C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11C2F2DC3EDC6786870B27B /* Pods-SkeletonViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SkeletonViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +530,12 @@
 		};
 		9EBBE4F722F1730C0083957C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B21B9D0063066786297498B /* Pods-SkeletonViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SkeletonViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
